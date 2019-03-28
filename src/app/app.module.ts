@@ -15,6 +15,10 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,11 +32,16 @@ import { FooterComponent } from './components/footer/footer.component';
     VideosComponent,
     SocialMediaComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
