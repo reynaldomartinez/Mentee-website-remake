@@ -13,10 +13,29 @@
 
 .container .mat-drawer {
   min-width: 200px;
+  background: #B06262;
 }
 
 .container .mat-drawer .mat-button {
   display: block;
   width: 100%;
   text-align: left;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 0;
 }
+.container .mat-drawer .mat-button:hover {
+  background: #8E4343;
+}
+
+mat-toolbar{
+  background: #8E4343;
+  margin-bottom: 1px;
+}
+
+/*img {*/
+  /*padding-bottom: 3px;*/
+  /*margin-bottom: 1px;*/
+  /*border-bottom: 1px solid black;*/
+/*}*/

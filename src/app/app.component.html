@@ -1,22 +1,26 @@
 <mat-drawer-container class="container">
   <!--mode="side"-->
-  <mat-drawer #drawer class="sidenav" >
-    <button color="primary" mat-button>Home</button>
-    <button color="primary" mat-button>Admissions</button>
-    <button color="primary" mat-button>Resources</button>
-    <button color="primary" mat-button>Programs</button>
-    <button color="primary" mat-button>Contact Us</button>
+  <mat-drawer #drawer class="sidenav">
+    <img [src]="menteeLogo" alt="" class="m-2 text-center">
+    <button mat-button [routerLink]="''">HOME</button>
+    <button mat-button [routerLink]="'admissions'">ADMISSIONS</button>
+    <button mat-button [routerLink]="'resources'">RESOURCES</button>
+    <!--create router link-->
+    <button mat-button [routerLink]="">PROGRAMS</button>
+    <button mat-button [routerLink]="'contact-us'">CONTACT US</button>
   </mat-drawer>
   <div class="sidenav-content">
-    <mat-toolbar color="primary">
+    <mat-toolbar>
       <mat-toolbar-row>
         <button mat-icon-button (click)="drawer.toggle()">
           <mat-icon>menu</mat-icon>
         </button>
-        <span class="ml-2">Title</span>
+        <span class="ml-2">
+          <img [src]="menteeLogo" alt="Mentee Medical College">
+        </span>
       </mat-toolbar-row>
     </mat-toolbar>
   </div>
+    <router-outlet></router-outlet>
 </mat-drawer-container>
 
-<router-outlet></router-outlet>
