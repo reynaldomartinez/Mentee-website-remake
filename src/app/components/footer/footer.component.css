@@ -1,3 +1,29 @@
 footer {
-  background-color: #000;
+  display: flex;
+  background-color: #8E4343;
+  color: #fff;
+  font-size: 9px;
+  text-align: center;
+}
+
+.footer-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-logos span i {
+  margin: 10px;
+  color: #fff;
+}
+
+.footer-logos span i:hover {
+  margin: 10px;
+  color: #B06262;
 }

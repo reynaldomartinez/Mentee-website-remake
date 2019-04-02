@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admissions.component.css']
 })
 export class AdmissionsComponent implements OnInit {
-
+  menteeBanner = '../../assets/menteeBann.jpg';
   constructor() { }
 
   ngOnInit() {

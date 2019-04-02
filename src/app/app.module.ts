@@ -14,8 +14,9 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
 import { FooterComponent } from './components/footer/footer.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
+import {MatButtonModule, MatCardModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import { MedicalNewsComponent } from './components/medical-news/medical-news.component';
+import { OurVideosComponent } from './components/our-videos/our-videos.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { MedicalNewsComponent } from './components/medical-news/medical-news.com
     SocialMediaComponent,
     FooterComponent,
     MedicalNewsComponent,
+    OurVideosComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { MedicalNewsComponent } from './components/medical-news/medical-news.com
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

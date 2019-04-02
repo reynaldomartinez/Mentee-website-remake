@@ -1,0 +1,19 @@
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2  {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: serif;
+}
+
+h2 {
+  color: #B01618;
+}

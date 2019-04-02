@@ -1,0 +1,77 @@
+img {
+  /*height: 300px;*/
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #004B88;
+}
+
+h2 {
+  font-family: serif;
+  color: #004B88;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+}
+
+button {
+  background: #004b88;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+button:hover {
+  background: #095388;
+  color: #fff;
+}
+
+.newStudent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.returningStudent {
+  display: flex;
+  flex-direction: column;
+}
+
+.appStatus {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menteeBanner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    min-height: 200px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  div {
+    border-right: none !important;
+  }
+
+  .menteeBanner {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
