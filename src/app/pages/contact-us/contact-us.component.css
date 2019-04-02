@@ -2,6 +2,10 @@
   margin-top: 100px;
 }
 
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
 mat-form-field textarea {
   resize: none;
 }

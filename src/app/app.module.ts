@@ -26,6 +26,7 @@ import {
 import { MedicalNewsComponent } from './components/medical-news/medical-news.component';
 import { OurVideosComponent } from './components/our-videos/our-videos.component';
 import { ProgramsComponent } from './pages/programs/programs.component';
+import { ProgramDescComponent } from './components/program-desc/program-desc.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { ProgramsComponent } from './pages/programs/programs.component';
     MedicalNewsComponent,
     OurVideosComponent,
     ProgramsComponent,
+    ProgramDescComponent,
   ],
   imports: [
     BrowserModule,

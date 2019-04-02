@@ -1,0 +1,24 @@
+.image-wrapper {
+  background: url("/../../assets/programBackground.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 39vh;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.image-text {
+  background: #8E4343;
+  border-radius: 50%;
+  height: 130px;
+  padding: 40px;
+}
+
+.second-wrapper {
+  background: #E7E2E2;
+}
