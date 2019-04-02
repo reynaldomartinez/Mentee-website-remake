@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCardModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import { MedicalNewsComponent } from './components/medical-news/medical-news.component';
 import { OurVideosComponent } from './components/our-videos/our-videos.component';
+import { ProgramsComponent } from './pages/programs/programs.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { OurVideosComponent } from './components/our-videos/our-videos.component
     FooterComponent,
     MedicalNewsComponent,
     OurVideosComponent,
+    ProgramsComponent,
   ],
   imports: [
     BrowserModule,
