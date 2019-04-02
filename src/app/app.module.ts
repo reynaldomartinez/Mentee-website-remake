@@ -14,7 +14,15 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
 import { FooterComponent } from './components/footer/footer.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatFormFieldModule,
+  MatIconModule, MatInputModule,
+  MatSelectModule,
+  MatSidenavModule,
+  MatToolbarModule
+} from '@angular/material';
 import { MedicalNewsComponent } from './components/medical-news/medical-news.component';
 import { OurVideosComponent } from './components/our-videos/our-videos.component';
 import { ProgramsComponent } from './pages/programs/programs.component';
@@ -44,7 +52,9 @@ import { ProgramsComponent } from './pages/programs/programs.component';
     MatIconModule,
     MatSidenavModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,10 @@
 <mat-drawer-container class="container">
   <!--mode="side"-->
   <mat-drawer #drawer class="sidenav">
-    <img [src]="menteeLogo" alt="" class="m-2 text-center">
+    <a [routerLink]="''">
+      <img [src]="menteeLogo" alt="" class="m-2 text-center">
+    </a>
+
     <button mat-button [routerLink]="''">HOME</button>
     <button mat-button [routerLink]="'admissions'">ADMISSIONS</button>
     <button mat-button [routerLink]="'resources'">RESOURCES</button>
@@ -16,7 +19,9 @@
           <mat-icon>menu</mat-icon>
         </button>
         <span class="ml-2">
-          <img [src]="menteeLogo" alt="Mentee Medical College">
+          <a [routerLink]="''">
+            <img [src]="menteeLogo" alt="Mentee Medical College">
+          </a>
         </span>
       </mat-toolbar-row>
     </mat-toolbar>

@@ -1,0 +1,23 @@
+.row {
+  margin-top: 100px;
+}
+
+mat-form-field textarea {
+  resize: none;
+}
+
+button {
+  background: #8E4343;
+}
+
+button:hover {
+  background: #8e3b3e;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin-bottom: 162px;
+}
