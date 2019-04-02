@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-social-media',
   templateUrl: './social-media.component.html',
   styleUrls: ['./social-media.component.css']
 })
-export class SocialMediaComponent implements OnInit {
+export class SocialMediaComponent implements OnInit, AfterViewInit {
 
   constructor() { }
+  ngOnInit(): void {
+  }
 
-  ngOnInit() {
+  ngAfterViewInit(): void {
+    // @ts-ignore
+    twttr.widgets.createTimeline();
   }
 
 }

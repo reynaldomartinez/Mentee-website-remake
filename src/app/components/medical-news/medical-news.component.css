@@ -1,0 +1,27 @@
+.medical-wrapper{
+  background: #8E4343;
+  padding-bottom: 25px;
+}
+
+.medical-news {
+  color: #fff;
+  font-family: 'Lora', serif;
+}
+
+.medical-news p {
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 30px;
+}
+
+p {
+  margin-bottom: 15px !important;
+}
+
+iframe {
+  margin: 5px;
+}

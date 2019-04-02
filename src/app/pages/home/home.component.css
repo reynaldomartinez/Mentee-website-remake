@@ -1,1 +1,142 @@
 
+em{
+  font-family: 'Lora', serif;
+  color: #B01618;
+  font-size: 2em;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: .9em;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #B01618;
+}
+
+.programs{
+  /*display: flex;*/
+}
+
+
+/*3 programs*/
+/*MAX 768px*/
+@media screen and (max-width: 768px) {
+  .programs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nurse {
+    flex-direction: column;
+
+  }
+
+  .ultrasound {
+    flex-direction: column;
+  }
+
+  .patient {
+    flex-direction: column;
+  }
+}
+  /*MAX 992px*/
+  @media screen and (max-width: 991px) {
+    .programs {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nurse {
+      display: flex;
+      margin: 25px;
+      align-items: center;
+    }
+
+    .insideNurse {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
+    }
+
+    .ultrasound {
+      display: flex;
+      margin: 25px;
+      align-items: center;
+    }
+
+    .insideUltra {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
+    }
+
+    .patient {
+      display: flex;
+      margin: 25px;
+      align-items: center;
+    }
+
+    .insidePatient {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
+    }
+  }
+  /*Max 993px*/
+  @media screen and (min-width: 992px) {
+    .programs {
+      display: flex;
+    }
+
+    .nurse {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+    }
+
+    .insideNurse {
+      padding: 20px;
+    }
+
+    .ultrasound {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+    }
+
+    .insideUltra {
+      padding: 20px;
+    }
+
+    .patient {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+    }
+
+    .insidePatient {
+      padding: 20px;
+    }
+  }
+
+img {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+ img:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  /*transition: box-shadow .1s ease-in-out;*/
+   -webkit-transition: transform .5s ease-in-out;
+ }
+
+ img:hover::after {
+   opacity: 1;
+ }

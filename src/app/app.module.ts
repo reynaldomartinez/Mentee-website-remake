@@ -10,13 +10,12 @@ import { ResourcesComponent } from './pages/resources/resources.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { GoogleMapComponent } from './components/google-map/google-map.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
-import { VideosComponent } from './components/videos/videos.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
-import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule } from '@angular/material';
+import { MedicalNewsComponent } from './components/medical-news/medical-news.component';
 
 
 @NgModule({
@@ -29,10 +28,9 @@ import { MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule } fr
     ContactUsComponent,
     GoogleMapComponent,
     ContactFormComponent,
-    VideosComponent,
     SocialMediaComponent,
-    HeaderComponent,
     FooterComponent,
+    MedicalNewsComponent,
   ],
   imports: [
     BrowserModule,
